@@ -1,0 +1,207 @@
+/* GENERAL */
+
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+h2
+{
+  font-family: 'Cinzel', serif;
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+}
+
+p
+{
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  position: relative;
+}
+
+/* MAIN */
+
+#main
+{
+  height: 700px;
+  width: auto;
+  background: url(images/main-image.jpg) repeat-x;
+  background-position: center;
+  background-size: cover;
+}
+
+h1
+{
+  font-family: 'Cinzel', serif;
+  font-size: 50px;
+  color: #85C17E;
+  /* color: #E9C9B1; */
+  text-align: center;
+  text-shadow: -1px -1px 0 black,
+              1px -1px 0 black,
+              -1px 1px 0 black,
+              1px 1px 0 black;
+  position: relative;
+  top: 40%;
+}
+
+.title
+{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+/* PROJETS */
+
+#projets
+{
+  height: 500px;
+  width: auto;
+  padding: 60px 0;
+  margin: 0 auto;
+}
+
+article
+{
+  width: 500px;
+  height: 300px;
+  float: left;
+  border-radius: 10px;
+}
+
+.projet-1
+{
+  background: url(images/design.jpg) repeat-x;
+  background-position: center;
+  background-size: cover;
+  margin-right: 90px;
+  margin-left: 300px;
+}
+
+.projet-2
+{
+  background: url(images/gamedesign.jpg) repeat-x;
+  background-position: center;
+  background-size: cover;
+}
+
+.overlay
+{
+  background: rgba(255,255,255,0.95);
+  height: 100%;
+  width: 190px;
+  padding: 20px;
+  border-radius: 10px 0 0 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.button
+{
+  color: #85C17E;
+  background-color: white;
+  padding: 6px 20px;
+  border-radius: 3px;
+}
+
+.button:hover
+{
+  color: white;
+  background-color: #85C17E;
+}
+
+h4
+{
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#projets h2
+{
+  margin-bottom: 60px;
+}
+
+#projets p
+{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* EXPÉRIENCES PROFESSIONNELLES */
+
+#expro
+{
+  height: 500px;
+  width: auto;
+}
+
+/* FORMATION */
+
+#form
+{
+  height: 500px;
+  width: auto;
+}
+
+/* CONTACT */
+
+#contact
+{
+  height: 250px;
+  width: auto;
+}
+
+#contact body {
+  margin: 5em;
+}
+
+.social-icons {
+  list-style-type: none;
+  margin: 0 auto 20px;
+  padding: 0;
+  width: 45px;
+  height: 100px;
+}
+
+.tab {
+  margin-right: 10px;
+  border-radius: 0 0 25px 25px;
+  float: left;
+}
+
+.circle {
+  padding: 10px 10px;
+  width: 20px;
+  font-size: 20px;
+  text-align: center;
+  background: #fff;
+  border-radius: 20px;
+  border: solid 1px;
+}
+
+.fa-linkedin {
+  color: hsl(199, 85%, 36%);
+  border-color: hsl(199, 85%, 36%);
+}
+
+.fa-linkedin:hover {
+  background-color: hsl(199, 85%, 36%);
+  color: hsl(0, 0%, 100%);
+}
+
+.screen-reader {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+}
+
+#contact p
+{
+  float: left;
+}
