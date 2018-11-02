@@ -26,9 +26,10 @@ p
 
 #main
 {
-  height: 700px;
+  height: 600px;
   width: auto;
-  background: url('images/main-image.jpg') repeat-x;
+  background: url('images/cover.jpg') repeat-x;
+  repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -36,7 +37,7 @@ p
 h1
 {
   font-family: 'Cinzel', serif;
-  font-size: 100px;
+  font-size: 80px;
   color: #85C17E;
   /* color: #E9C9B1; */
   text-align: center;
@@ -71,20 +72,21 @@ article
   height: 300px;
   float: left;
   border-radius: 10px;
+  margin-top: 40px;
 }
 
 .projet-1
 {
-  background: url('images/design.jpg') repeat-x;
+  background: url('images/code.jpg') repeat-x;
   background-position: center;
   background-size: cover;
   margin-right: 90px;
-  margin-left: 300px;
+  margin-left: 100px;
 }
 
 .projet-2
 {
-  background: url('images/gamedesign.jpg') repeat-x;
+  background: url('images/code.jpg') repeat-x;
   background-position: center;
   background-size: cover;
 }
@@ -106,8 +108,11 @@ article
   font-size: 20px;
   text-align: center;
   color: #85C17E;
-  padding: 6px 0px;
-  border-radius: 3px;
+  text-decoration: none;
+  padding: 6px 6px;
+  border-radius: 6px;
+  display: block;
+  margin: 0 auto;
 }
 
 .button:hover
@@ -135,6 +140,7 @@ h4
 {
   text-align: center;
   margin-bottom: 20px;
+  font-size: 25px;
 }
 
 /* EXPÉRIENCES PROFESSIONNELLES */
@@ -147,41 +153,71 @@ h4
   margin: 0 auto;
 }
 
+/* #expro h2
+{
+  border-top: 3px solid #000000;
+  padding-top: 20px;
+  margin: 0px 300px;
+} */
+
 .exp-1
 {
-  background: url('images/dev.png') no-repeat top center;
-  background-size: 300px;
-  margin: 50px 0px;
-  margin-left: 100px;
+  width: 300px;
+  height: 300px;
+  background: url('images/html5.svg') no-repeat top center;
+  background-size: 150px;
+  margin: 90px 0;
+  margin-left: 140px;
+}
+
+.exp-1 p
+{
+  font-size: 25px;
 }
 
 .exp-1 div
 {
-  margin: 230px 0px;
+  margin: 200px 0;
 }
 
 .exp-2
 {
-  background: url('images/html-5.png') no-repeat top center;
-  background-size: 230px;
-  margin: 50px 0px;
+  width: 300px;
+  height: 300px;
+  background: url('images/html5.svg') no-repeat top center;
+  background-size: 150px;
+  margin: 90px 0;
+  margin-left: 50px;
+}
+
+.exp-2 p
+{
+  font-size: 25px;
 }
 
 .exp-2 div
 {
-  margin: 230px 0px;
+  margin: 200px 0;
 }
 
 .exp-3
 {
-  background: url('images/dev.png') no-repeat top center;
-  background-size: 300px;
-  margin: 50px 0px;
+  width: 300px;
+  height: 300px;
+  background: url('images/html5.svg') no-repeat top center;
+  background-size: 150px;
+  margin: 90px 0;
+  margin-left: 50px;
+}
+
+.exp-3 p
+{
+  font-size: 25px;
 }
 
 .exp-3 div
 {
-  margin: 230px 0px;
+  margin: 200px 0;
 }
 
 /* FORMATION */
@@ -196,10 +232,17 @@ h4
 
 .educ-1
 {
-  background: url('images/graduation-cap.png') no-repeat top center;
-  background-size: 170px;
-  margin: 50px 0px;
-  margin-left: 100px;
+  width: 300px;
+  height: 300px;
+  background: url('images/graduation.png') no-repeat top center;
+  background-size: 200px;
+  margin: 50px 0;
+  margin-left: 140px;
+}
+
+.educ-1 p
+{
+  font-size: 25px;
 }
 
 .educ-1 div
@@ -209,9 +252,17 @@ h4
 
 .educ-2
 {
-  background: url('images/graduation-cap.png') no-repeat top center;
-  background-size: 170px;
+  width: 300px;
+  height: 300px;
+  background: url('images/graduation.png') no-repeat top center;
+  background-size: 200px;
   margin: 50px 0px;
+  margin-left: 50px;
+}
+
+.educ-2 p
+{
+  font-size: 25px;
 }
 
 .educ-2 div
@@ -221,9 +272,17 @@ h4
 
 .educ-3
 {
-  background: url('images/graduation-cap.png') no-repeat top center;
-  background-size: 170px;
+  width: 300px;
+  height: 300px;
+  background: url('images/graduation.png') no-repeat top center;
+  background-size: 200px;
   margin: 50px 0px;
+  margin-left: 50px;
+}
+
+.educ-3 p
+{
+  font-size: 25px;
 }
 
 .educ-3 div
@@ -250,57 +309,27 @@ h4
   margin: 5em;
 }
 
-.social-icons {
-  list-style-type: none;
-  margin: 0 auto 20px;
-  padding: 0;
-  width: 45px;
-  height: 100px;
-}
-
-.tab {
-  margin: 20px 0px;
-  border-radius: 0 0 25px 25px;
+#contact .email
+{
+  width: 80px;
+  height: 80px;
   float: left;
-}
-
-.circle {
-  padding: 15px 10px 10px 10px;
-  width: 40px;
-  height: 40px;
-  font-size: 30px;
-  text-align: center;
-  background: #fff;
-  border-radius: 40px;
-  border: solid 3px;
-}
-
-.fa-linkedin {
-  color: hsl(199, 85%, 36%);
-  border-color: hsl(199, 85%, 36%);
-}
-
-.fa-linkedin:hover {
-  background-color: hsl(199, 85%, 36%);
-  color: hsl(0, 0%, 100%);
-}
-
-.screen-reader {
-  position: absolute;
-  left: -9999px;
-  top: -9999px;
+  margin: 50px 0 0 430px;
 }
 
 #contact p
 {
+  width: 200px;
+  height: 200px;
+  font-size: 25px;
   float: left;
   margin: 50px 0px;
+  margin-left: 200px;
 }
 
-#contact .email
+.fa
 {
-  float: left;
-  margin: 50px 0px;
-  margin-left: 630px;
-  margin-right: 80px;
+  width: auto;
+  height: auto;
+  margin: 130px 0 0 0;
 }
