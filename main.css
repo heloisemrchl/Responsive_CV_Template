@@ -9,7 +9,7 @@
 h2
 {
   font-family: 'Cinzel', serif;
-  font-size: 40px;
+  font-size: 45px;
   text-align: center;
   position: relative;
 }
@@ -18,47 +18,16 @@ p
 {
   text-align: center;
   font-family: 'Cormorant Garamond', serif;
-  font-size: 30px;
+  font-size: 25px;
   position: relative;
 }
 
-/* MAIN */
-
-#main
+ul
 {
-  height: 600px;
-  width: auto;
-  background: url('images/cover.jpg') repeat-x;
-  repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  list-style: none;
 }
 
-h1
-{
-  font-family: 'Cinzel', serif;
-  font-size: 80px;
-  color: #85C17E;
-  /* color: #E9C9B1; */
-  text-align: center;
-  text-shadow: -1px -1px 0 black,
-              1px -1px 0 black,
-              -1px 1px 0 black,
-              1px 1px 0 black;
-  position: relative;
-  top: 40%;
-}
-
-.title
-{
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 70px;
-  text-align: center;
-}
-
-/* PROJETS */
-
-#projets
+.wrapper
 {
   height: 500px;
   width: auto;
@@ -66,13 +35,66 @@ h1
   margin: 0 auto;
 }
 
+/* MAIN */
+
+#main
+{
+  height: 500px;
+  width: 100%;
+  background: url('images/cover.jpg') repeat-x;
+  repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#main .wrapper
+{
+  height: auto;
+  width: 100%;
+}
+
+h1
+{
+  font-family: 'Cinzel', serif;
+  font-size: 130px;
+  color: white;
+  text-align: center;
+  text-shadow: -1px -1px 0 black,
+              1px -1px 0 black,
+              -1px 1px 0 black,
+              1px 1px 0 black;
+  position: relative;
+  top: 20%;
+}
+
+.title
+{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 100px;
+  text-align: center;
+}
+
+/* PROJETS */
+
+#projets
+{
+  text-align: center;
+}
+
+#projets .wrapper
+{
+  width: 100%;
+  height: auto;
+}
+
 article
 {
   width: 500px;
   height: 300px;
-  float: left;
   border-radius: 10px;
   margin-top: 40px;
+  margin-right: 20px;
+  display: inline-block;
 }
 
 .projet-1
@@ -80,8 +102,6 @@ article
   background: url('images/code.jpg') repeat-x;
   background-position: center;
   background-size: cover;
-  margin-right: 90px;
-  margin-left: 100px;
 }
 
 .projet-2
@@ -105,7 +125,7 @@ article
 .button
 {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 20px;
+  font-size: 1.5vw;
   text-align: center;
   color: #85C17E;
   text-decoration: none;
@@ -124,7 +144,7 @@ article
 h4
 {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 25px;
+  font-size: 30px;
   text-transform: uppercase;
   padding-bottom: 20px;
   text-align: center;
@@ -140,196 +160,160 @@ h4
 {
   text-align: center;
   margin-bottom: 20px;
-  font-size: 25px;
 }
 
 /* EXPÉRIENCES PROFESSIONNELLES */
 
 #expro
 {
-  height: 500px;
+  background-color: #efefef;
+  width: 100%;
+  height: auto;
+}
+
+#expro .wrapper
+{
+  width: 100%;
+  height: auto;
+}
+
+#expro ul
+{
+  margin-top: 90px;
+  position: relative;
+  text-align: center;
+}
+
+#expro ul li
+{
+  height: 100%;
   width: auto;
-  padding: 60px 0;
-  margin: 0 auto;
+  margin-right: 80px;
+  display: inline-block;
 }
 
-/* #expro h2
+#expro h2
 {
-  border-top: 3px solid #000000;
   padding-top: 20px;
-  margin: 0px 300px;
-} */
+  text-align: center;
+}
 
-.exp-1
+#expro h4
 {
-  width: 300px;
-  height: 300px;
+  padding-top: 170px;
+}
+
+#exp-1
+{
   background: url('images/html5.svg') no-repeat top center;
   background-size: 150px;
-  margin: 90px 0;
-  margin-left: 140px;
 }
 
-.exp-1 p
+#exp-2
 {
-  font-size: 25px;
-}
-
-.exp-1 div
-{
-  margin: 200px 0;
-}
-
-.exp-2
-{
-  width: 300px;
-  height: 300px;
   background: url('images/html5.svg') no-repeat top center;
   background-size: 150px;
-  margin: 90px 0;
-  margin-left: 50px;
 }
 
-.exp-2 p
+#exp-3
 {
-  font-size: 25px;
-}
-
-.exp-2 div
-{
-  margin: 200px 0;
-}
-
-.exp-3
-{
-  width: 300px;
-  height: 300px;
   background: url('images/html5.svg') no-repeat top center;
   background-size: 150px;
-  margin: 90px 0;
-  margin-left: 50px;
-}
-
-.exp-3 p
-{
-  font-size: 25px;
-}
-
-.exp-3 div
-{
-  margin: 200px 0;
 }
 
 /* FORMATION */
 
 #form
 {
-  height: 500px;
+  width: 100%;
+  height: auto;
+}
+
+#form .wrapper
+{
+  width: 100%;
+  height: auto;
+}
+
+#form ul
+{
+  margin-top: 90px;
+  position: relative;
+  text-align: center;
+}
+
+#form ul li
+{
+  height: 100%;
   width: auto;
-  padding: 60px 0;
-  margin: 0 auto;
+  margin-right: 80px;
+  display: inline-block;
 }
 
-.educ-1
+#form h2
 {
-  width: 300px;
-  height: 300px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+#form h4
+{
+  padding-top: 170px;
+}
+
+#educ-1
+{
   background: url('images/graduation.png') no-repeat top center;
-  background-size: 200px;
-  margin: 50px 0;
-  margin-left: 140px;
+  background-size: 150px;
 }
 
-.educ-1 p
+#educ-2
 {
-  font-size: 25px;
-}
-
-.educ-1 div
-{
-  margin: 230px 0px;
-}
-
-.educ-2
-{
-  width: 300px;
-  height: 300px;
   background: url('images/graduation.png') no-repeat top center;
-  background-size: 200px;
-  margin: 50px 0px;
-  margin-left: 50px;
+  background-size: 150px;
 }
 
-.educ-2 p
+#educ-3
 {
-  font-size: 25px;
-}
-
-.educ-2 div
-{
-  margin: 230px 0px;
-}
-
-.educ-3
-{
-  width: 300px;
-  height: 300px;
   background: url('images/graduation.png') no-repeat top center;
-  background-size: 200px;
-  margin: 50px 0px;
-  margin-left: 50px;
-}
-
-.educ-3 p
-{
-  font-size: 25px;
-}
-
-.educ-3 div
-{
-  margin: 230px 0px;
+  background-size: 150px;
 }
 
 /* CONTACT */
 
 #contact
 {
-  height: 250px;
-  width: auto;
+  width: 100%;
+  height: auto;
+  background-color: #efefef;
 }
 
 #contact h2
 {
-  border-top: 3px solid #000000;
   padding-top: 20px;
-  margin: 0px 400px;
+  text-align: center;
 }
 
-#contact body {
-  margin: 5em;
-}
-
-#contact .email
+#contact ul
 {
-  width: 80px;
-  height: 80px;
-  float: left;
-  margin: 50px 0 0 430px;
+  margin-top: 30px;
+  position: relative;
+  text-align: center;
 }
 
-#contact p
+#contact ul li
 {
-  width: 200px;
-  height: 200px;
-  font-size: 25px;
-  float: left;
-  margin: 50px 0px;
-  margin-left: 200px;
+  display: inline-block;
 }
 
 .fa
 {
   width: auto;
   height: auto;
-  margin: 130px 0 0 0;
+  margin: 20px 0;
+}
+
+.fa-linkedin
+{
+  margin-right: 20px;
 }
