@@ -6,12 +6,36 @@
   padding: 0;
 }
 
+h1
+{
+  font-family: 'Cinzel', serif;
+  font-size: 130px;
+  color: white;
+  text-align: center;
+  text-shadow: -1px -1px 0 black,
+              1px -1px 0 black,
+              -1px 1px 0 black,
+              1px 1px 0 black;
+  position: relative;
+  top: 20%;
+}
+
 h2
 {
   font-family: 'Cinzel', serif;
   font-size: 45px;
   text-align: center;
   position: relative;
+}
+
+h4
+{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 p
@@ -53,20 +77,6 @@ ul
   width: 100%;
 }
 
-h1
-{
-  font-family: 'Cinzel', serif;
-  font-size: 130px;
-  color: white;
-  text-align: center;
-  text-shadow: -1px -1px 0 black,
-              1px -1px 0 black,
-              -1px 1px 0 black,
-              1px 1px 0 black;
-  position: relative;
-  top: 20%;
-}
-
 .title
 {
   font-family: 'Cormorant Garamond', serif;
@@ -76,15 +86,29 @@ h1
 
 /* PROJETS */
 
-#projets
+#projects
 {
   text-align: center;
+  overflow: hidden;
 }
 
-#projets .wrapper
+#projects .wrapper
 {
   width: 100%;
   height: auto;
+  text-align: center;
+  position: relative;
+}
+
+#projects h2
+{
+  margin-bottom: 60px;
+}
+
+#projects p
+{
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 article
@@ -92,23 +116,12 @@ article
   width: 500px;
   height: 300px;
   border-radius: 10px;
-  margin-top: 40px;
-  margin-right: 20px;
+  margin: 40px 30px;
   display: inline-block;
-}
-
-.projet-1
-{
-  background: url('images/code.jpg') repeat-x;
-  background-position: center;
-  background-size: cover;
-}
-
-.projet-2
-{
-  background: url('images/code.jpg') repeat-x;
-  background-position: center;
-  background-size: cover;
+  overflow: hidden;
+  text-align: center;
+  padding: 0;
+  position: relative;
 }
 
 .overlay
@@ -120,6 +133,20 @@ article
   border-radius: 10px 0 0 10px;
   text-align: center;
   box-sizing: border-box;
+}
+
+#project-1
+{
+  background: url('images/code.jpg') repeat-x;
+  background-position: center;
+  background-size: cover;
+}
+
+#project-2
+{
+  background: url('images/code.jpg') repeat-x;
+  background-position: center;
+  background-size: cover;
 }
 
 .button
@@ -141,55 +168,47 @@ article
   background-color: #85C17E;
 }
 
-h4
-{
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 30px;
-  text-transform: uppercase;
-  padding-bottom: 20px;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-#projets h2
-{
-  margin-bottom: 60px;
-}
-
-#projets p
-{
-  text-align: center;
-  margin-bottom: 20px;
-}
-
 /* EXPÉRIENCES PROFESSIONNELLES */
 
 #expro
 {
   background-color: #efefef;
-  width: 100%;
-  height: auto;
+  text-align: center;
+  overflow: hidden;
 }
 
 #expro .wrapper
 {
   width: 100%;
   height: auto;
+  text-align: center;
+  position: relative;
+}
+
+.expro
+{
+  overflow: hidden;
+  text-align: center;
+  width: auto;
 }
 
 #expro ul
 {
+  padding: 0;
   margin-top: 90px;
   position: relative;
   text-align: center;
+  display: inline-block;
 }
 
-#expro ul li
+#expro li
 {
+  display: inline-block;
   height: 100%;
   width: auto;
-  margin-right: 80px;
-  display: inline-block;
+  margin: 0px 80px 30px 80px;
+  background-position: top center;
+  background-size: 150px;
 }
 
 #expro h2
@@ -201,82 +220,91 @@ h4
 #expro h4
 {
   padding-top: 170px;
+  text-align: center;
 }
 
-#exp-1
+#expro-1
 {
-  background: url('images/html5.svg') no-repeat top center;
-  background-size: 150px;
+  background: url('images/html5.svg') no-repeat;
 }
 
-#exp-2
+#expro-2
 {
-  background: url('images/html5.svg') no-repeat top center;
-  background-size: 150px;
+  background: url('images/html5.svg') no-repeat;
 }
 
-#exp-3
+#expro-3
 {
-  background: url('images/html5.svg') no-repeat top center;
-  background-size: 150px;
+  background: url('images/html5.svg') no-repeat;
 }
 
 /* FORMATION */
 
-#form
+#educ
+{
+  text-align: center;
+  overflow: hidden;
+}
+
+#educ .wrapper
 {
   width: 100%;
   height: auto;
+  text-align: center;
+  position: relative;
 }
 
-#form .wrapper
+.educ
 {
-  width: 100%;
-  height: auto;
+  overflow: hidden;
+  text-align: center;
+  width: auto;
 }
 
-#form ul
+#educ ul
 {
+  padding: 0;
   margin-top: 90px;
   position: relative;
   text-align: center;
-}
-
-#form ul li
-{
-  height: 100%;
-  width: auto;
-  margin-right: 80px;
   display: inline-block;
 }
 
-#form h2
+#educ li
+{
+  display: inline-block;
+  height: 100%;
+  width: auto;
+  margin: 0px 80px 30px 80px;
+  background-position: top center;
+  background-size: 150px;
+}
+
+#educ h2
 {
   padding-top: 20px;
   text-align: center;
 }
 
-#form h4
+#educ h4
 {
   padding-top: 170px;
+  text-align: center;
 }
 
 #educ-1
 {
-  background: url('images/graduation.png') no-repeat top center;
-  background-size: 150px;
+  background: url('images/graduation.png') no-repeat;
 }
 
 #educ-2
 {
-  background: url('images/graduation.png') no-repeat top center;
-  background-size: 150px;
+  background: url('images/graduation.png') no-repeat;
 }
 
 #educ-3
 {
-  background: url('images/graduation.png') no-repeat top center;
-  background-size: 150px;
+  background: url('images/graduation.png') no-repeat;
 }
 
 /* CONTACT */
@@ -317,3 +345,17 @@ h4
 {
   margin-right: 20px;
 }
+
+/* #contact ul:nth-child(4)
+{
+  margin-top: 0px;
+}
+
+.languages
+{
+  color:black;
+  text-shadow: 1px 0 black;
+  letter-spacing:1px;
+  font-weight:bold;
+  font-size: 20px;
+} */
