@@ -64,7 +64,7 @@ ul
 #main
 {
   height: 550px;
-  width: 100%;
+  width: auto;
   background: url('images/cover.jpg') repeat-x;
   repeat: no-repeat;
   background-position: center;
