@@ -53,8 +53,8 @@ ul
 
 .wrapper
 {
-  height: 500px;
-  width: auto;
+  height: 550px;
+  width: 100%;
   padding: 60px 0;
   margin: 0 auto;
 }
@@ -63,7 +63,7 @@ ul
 
 #main
 {
-  height: 500px;
+  height: 550px;
   width: 100%;
   background: url('images/cover.jpg') repeat-x;
   repeat: no-repeat;
