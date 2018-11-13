@@ -6,7 +6,7 @@ It is not 100% complete yet but I am currently working on it.
 
 Thank you! :)
 
-Deployment: https://heloisemrchl.github.io/Responsive_CV_Template/
+Deployment: https://mrchll.github.io/Responsive_CV_Template/
 
 <!-- ICON TOOLS -->
 
