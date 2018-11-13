@@ -9,7 +9,7 @@
 h1
 {
   font-family: 'Cinzel', serif;
-  font-size: 130px;
+  font-size: 13vw;
   color: white;
   text-align: center;
   text-shadow: -1px -1px 0 black,
@@ -53,7 +53,7 @@ ul
 
 .wrapper
 {
-  height: 550px;
+  height: 500px;
   width: 100%;
   padding: 60px 0;
   margin: 0 auto;
@@ -63,8 +63,8 @@ ul
 
 #main
 {
-  height: 550px;
-  width: auto;
+  height: 500px;
+  width: 100%;
   background: url('images/cover.jpg') repeat-x;
   repeat: no-repeat;
   background-position: center;
@@ -74,13 +74,13 @@ ul
 #main .wrapper
 {
   height: auto;
-  width: auto;
+  width: 100%;
 }
 
 .title
 {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 100px;
+  font-size: 10vw;
   text-align: center;
 }
 
@@ -152,7 +152,7 @@ article
 .button
 {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 1.5vw;
+  font-size: 20px;
   text-align: center;
   color: #85C17E;
   text-decoration: none;
